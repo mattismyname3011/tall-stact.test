@@ -6,8 +6,7 @@ use Illuminate\Support\Facades\Session;
 use Livewire\Attributes\Layout;
 use Livewire\Volt\Component;
 
-new #[Layout('layouts.guest')] class extends Component
-{
+new #[Layout("layouts.guest")] class extends Component {
     public LoginForm $form;
 
     /**
@@ -21,9 +20,13 @@ new #[Layout('layouts.guest')] class extends Component
 
         Session::regenerate();
 
-        $this->redirectIntended(default: RouteServiceProvider::HOME, navigate: true);
+        $this->redirectIntended(
+            default: RouteServiceProvider::HOME,
+            navigate: true,
+        );
     }
-}; ?>
+};
+?>
 
 <div>
     <!-- Session Status -->

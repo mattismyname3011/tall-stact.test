@@ -7,22 +7,24 @@ use Illuminate\Support\Facades\Session;
 use Livewire\Attributes\Layout;
 use Livewire\Volt\Component;
 
-new #[Layout('layouts.guest')] class extends Component
-{
+new #[Layout("layouts.guest")] class extends Component {
     /**
      * Send an email verification notification to the user.
      */
     public function sendVerification(): void
     {
         if (Auth::user()->hasVerifiedEmail()) {
-            $this->redirectIntended(default: RouteServiceProvider::HOME, navigate: true);
+            $this->redirectIntended(
+                default: RouteServiceProvider::HOME,
+                navigate: true,
+            );
 
             return;
         }
 
         Auth::user()->sendEmailVerificationNotification();
 
-        Session::flash('status', 'verification-link-sent');
+        Session::flash("status", "verification-link-sent");
     }
 
     /**
@@ -32,9 +34,10 @@ new #[Layout('layouts.guest')] class extends Component
     {
         $logout();
 
-        $this->redirect('/', navigate: true);
+        $this->redirect("/", navigate: true);
     }
-}; ?>
+};
+?>
 
 <div>
     <div class="mb-4 text-sm text-gray-600 dark:text-gray-400">
