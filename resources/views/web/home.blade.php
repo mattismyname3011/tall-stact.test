@@ -39,7 +39,7 @@
             <div class="flex flex-col flex-1 overflow-hidden">
                 <x-offerBanner/>
                 <!-- Navbar -->
-                <div class="bg-white border-y-2 border-pink-300 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+                <div class="z-10 bg-white border-t-2 border-pink-300 shadow-md">
                     <div class="container mx-auto">
                         <div class="flex items-center justify-between px-2 py-4 text-black ">
                             <h1 class="flex items-center justify-center w-1/6 mx-6 font-semibold sm:mx-0 font-Playfair">WintérLand</h1>
