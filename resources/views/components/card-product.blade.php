@@ -1,42 +1,42 @@
-<div class=" max-w-sm rounded-2xl overflow-hidden shadow-[0_35px_35px_-25px_rgba(0,0,0,0.3)] bg-white">
+<div class="border-[#e41bab] max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white">
     {{-- <img class="w-full" src={{url('/img/winterland.ina_1709741365747.jpeg')}} alt="Sunset in the mountains"> --}}
-    <img class="w-full" src="{{$item['url']}}">
+    <img class="w-full" src="{{$item['url']}}" alt="{{$item['url']}}">
     <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">Double Intensive Body Serum</div>
-      <p class="text-gray-700 text-base">
+      <div class="mb-2 text-xl text-black font-NexaHeavy">Double Intensive Body Serum</div>
+      <p class="text-gray-600  font-Urbanist">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
       </p>
     </div>
     <div class="px-6 pt-4 pb-2">
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#WintérLand</span>
-      <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#putihsebeningsalju</span>
+      <span class="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-white bg-pink-500 rounded-full">#WintérLand</span>
+      <span class="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-white bg-pink-500 rounded-full">#putihsebeningsalju</span>
     </div>
 </div>
 
 <!-- component -->
 {{-- <style>@import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css);</style>
-<div class="min-w-screen min-h-screen bg-yellow-300 flex items-center p-5 lg:p-10 overflow-hidden relative">
-    <div class="w-full max-w-6xl rounded bg-white shadow-xl p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left">
-        <div class="md:flex items-center -mx-10">
-            <div class="w-full md:w-1/2 px-10 mb-10 md:mb-0">
+<div class="relative flex items-center min-h-screen p-5 overflow-hidden bg-yellow-300 min-w-screen lg:p-10">
+    <div class="relative w-full max-w-6xl p-10 mx-auto text-gray-800 bg-white rounded shadow-xl lg:p-20 md:text-left">
+        <div class="items-center -mx-10 md:flex">
+            <div class="w-full px-10 mb-10 md:w-1/2 md:mb-0">
                 <div class="relative">
-                    <img src="https://pngimg.com/uploads/raincoat/raincoat_PNG53.png" class="w-full relative z-10" alt="">
-                    <div class="border-4 border-yellow-200 absolute top-10 bottom-10 left-10 right-10 z-0"></div>
+                    <img src="https://pngimg.com/uploads/raincoat/raincoat_PNG53.png" class="relative z-10 w-full" alt="">
+                    <div class="absolute z-0 border-4 border-yellow-200 top-10 bottom-10 left-10 right-10"></div>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 px-10">
+            <div class="w-full px-10 md:w-1/2">
                 <div class="mb-10">
-                    <h1 class="font-bold uppercase text-2xl mb-5">Mens's Ragged <br>Waterproof Jacket</h1>
-                    <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eos, voluptatum dolorum! Laborum blanditiis consequatur, voluptates, sint enim fugiat saepe, dolor fugit, magnam explicabo eaque quas id quo porro dolorum facilis... <a href="#" class="opacity-50 text-gray-900 hover:opacity-100 inline-block text-xs leading-none border-b border-gray-900">MORE <i class="mdi mdi-arrow-right"></i></a></p>
+                    <h1 class="mb-5 text-2xl font-bold uppercase">Mens's Ragged <br>Waterproof Jacket</h1>
+                    <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eos, voluptatum dolorum! Laborum blanditiis consequatur, voluptates, sint enim fugiat saepe, dolor fugit, magnam explicabo eaque quas id quo porro dolorum facilis... <a href="#" class="inline-block text-xs leading-none text-gray-900 border-b border-gray-900 opacity-50 hover:opacity-100">MORE <i class="mdi mdi-arrow-right"></i></a></p>
                 </div>
                 <div>
-                    <div class="inline-block align-bottom mr-5">
+                    <div class="inline-block mr-5 align-bottom">
                         <span class="text-2xl leading-none align-baseline">$</span>
-                        <span class="font-bold text-5xl leading-none align-baseline">59</span>
+                        <span class="text-5xl font-bold leading-none align-baseline">59</span>
                         <span class="text-2xl leading-none align-baseline">.99</span>
                     </div>
                     <div class="inline-block align-bottom">
-                        <button class="bg-yellow-300 opacity-75 hover:opacity-100 text-yellow-900 hover:text-gray-900 rounded-full px-10 py-2 font-semibold"><i class="mdi mdi-cart -ml-2 mr-2"></i> BUY NOW</button>
+                        <button class="px-10 py-2 font-semibold text-yellow-900 bg-yellow-300 rounded-full opacity-75 hover:opacity-100 hover:text-gray-900"><i class="mr-2 -ml-2 mdi mdi-cart"></i> BUY NOW</button>
                     </div>
                 </div>
             </div>
@@ -45,9 +45,9 @@
 </div> --}}
 
 <!-- BUY ME A BEER AND HELP SUPPORT OPEN-SOURCE RESOURCES -->
-{{-- <div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
+{{-- <div class="fixed bottom-0 right-0 z-10 flex items-end justify-end mb-4 mr-4">
     <div>
-        <a title="Buy me a beer" href="https://www.buymeacoffee.com/scottwindon" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
+        <a title="Buy me a beer" href="https://www.buymeacoffee.com/scottwindon" target="_blank" class="block w-16 h-16 transition-all transform rounded-full shadow hover:shadow-lg hover:scale-110 hover:rotate-12">
             <img class="object-cover object-center w-full h-full rounded-full" src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg"/>
         </a>
     </div>

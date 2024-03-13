@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/2cb168df32.js" crossorigin="anonymous"></script>
+    <header class="bg-[#ffffff30]">
+        <nav class="flex items-center justify-between h-16 px-12">
+            <a href="" class="px-2 py-1 text-2xl font-semibold border-2">WinterLand</a>
+
+            <div id="dropdown-menu"
+                class=" absolute -top-full left-0 bg-[#ffffff30] w-full flex flex-col gap-6 items-center py-2 text-lg font-bold">
+                <ul class="flex flex-col items-center gap-6">
+                    <li class="hover:text-orange-400">Home</li>
+                    <li class="hover:text-orange-400">About Us</li>
+                    <li class="hover:text-orange-400">Products</li>
+                    <li class="hover:text-orange-400">Contacts</li>
+                </ul>
+                <div class="flex flex-col items-center gap-6">
+                    <button class="hover:text-orange-400">Login</button>
+                    <button class="px-2 py-1 bg-orange-400 rounded-lg">Sign Up</button>
+                </div>
+            </div>
+
+            <div id="toggle-btn" class="toggle-btn">
+                <i class="fa-solid fa-bars fa-lg"></i>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <script>
+        const toggleBtn = document.getElementById("toggle-btn");
+        const dropDown = document.getElementById("dropdown-menu");;
+
+        toggleBtn.addEventListener("click", () => {
+            dropDown.classList.toggle('top-16');
+        });
+    </script>
+</body>
+
+</html>
