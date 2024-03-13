@@ -15,9 +15,9 @@
 
     @php
         $data = [
-            ['id' => 1, 'url' => '/img/winterland.ina_1709741379835.jpeg'],
+            ['id' => 1, 'url' => '/img/NonCacaaa1440x1440.png'],
             ['id' => 2, 'url' => '/img/mid_image.jpeg'],
-            ['id' => 3, 'url' => '/img/winterland.ina_1709741365747.jpeg'],
+            ['id' => 3, 'url' => '/img/Cacaaa1440x1440.png'],
             // ['id' => 1, 'url' => '/img/winterland.ina_1709741379835.jpeg'],
             // ['id' => 2, 'url' => '/img/mid_image.jpeg'],
             // ['id' => 3, 'url' => '/img/winterland.ina_1709741365747.jpeg'],
