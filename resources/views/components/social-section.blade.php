@@ -142,7 +142,8 @@
             </div>
         </div>
     </section>
-    <section class="mt-10 text-center md:text-left">
+
+    <section id="contacts" class="mt-10 text-center md:text-left">
         <div class="grid gap-6 md:grid-cols-2">
           <div class="mb-6 md:mb-0 ">
             <h2 class="px-10 mb-6 text-3xl font-bold font-Playfair">

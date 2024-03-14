@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  class="scroll-smooth" lang="en">
 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,10 +13,16 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 
+<style>
+    *{
+        scroll-behavior: smooth;
+    }
+</style>
+
 {{-- <body class="bg-gradient-to-r from-[#b3d8ff] to-[#9089fc]"> --}}
 {{-- <body class="static h-[100vh] w-full bg-[url(https://wallpaperaccess.com/full/2317540.jpg)] bg-cover bg-center bg-static bg-no-repeat"> --}}
 {{-- <body> --}}
-<body class="static h-[100vh] w-full bg-[url(https://wallpaperaccess.com/full/2317540.jpg)] bg-cover bg-center bg-fixed bg-no-repeat">
+<body class="h-[100vh] w-full bg-[url(https://wallpaperaccess.com/full/2317540.jpg)] bg-cover bg-center bg-fixed bg-no-repeat">
     <div class="">
         <div class="flex h-screen overflow-hidden bg-center bg-no-repeat bg-cover bg-static">
             <!-- Sidebar -->
@@ -27,10 +33,10 @@
                 <div class="p-4">
                     <h1 class="text-2xl font-semibold">WinterLand</h1>
                     <ul class="mt-4">
-                        <li class="mb-2"><a href="#" class="block hover:text-indigo-400">Home</a></li>
-                        <li class="mb-2"><a href="#" class="block hover:text-indigo-400">About Us</a></li>
-                        <li class="mb-2"><a href="#" class="block hover:text-indigo-400">Products</a></li>
-                        <li class="mb-2"><a href="#" class="block hover:text-indigo-400">Contact</a></li>
+                        <li class="mb-2"><a href="#" class="block hover:text-indigo-400">Home</a></li> 
+                        <li class="mb-2"><a href="#products" class="block hover:text-indigo-400">Products</a></li>
+                        <li class="mb-2"><a href="#aboutus" class="block hover:text-indigo-400">About Us</a></li>
+                        <li class="mb-2"><a href="#contacts" class="block hover:text-indigo-400">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,9 +51,9 @@
                             <h1 class="flex items-center justify-center w-1/6 mx-6 font-semibold sm:mx-0 font-Playfair">WintérLand</h1>
                             <div class="hidden w-5/6 md:flex justify-evenly">
                                 <a href="" class="font-semibold">Home</a>
-                                <a href="" class="font-semibold ">About Us</a>
-                                <a href="" class="font-semibold ">Products</a>
-                                <a href="" class="font-semibold ">Contacts</a>
+                                <a href="#products" class="font-semibold ">Products</a>
+                                <a href="#aboutus" class="font-semibold ">About Us</a>
+                                <a href="#contacts" class="font-semibold ">Contacts</a>
                             </div>
 
                             <button onclick="myFunction()" class="text-black md:hidden hover:text-gray-600" id="open-sidebar">
@@ -62,6 +68,7 @@
                 <div class="flex-1 p-0 overflow-auto">
                     {{-- <h1 class="mx-4 text-2xl font-semibold">Welcome to our website</h1>
                     <p class="mx-4">... Content goes here ...</p> --}}
+                    
                     <x-hero-section/>
                     <x-testimonial-section/>
                     <x-social-section/>
