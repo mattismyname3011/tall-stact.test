@@ -3,7 +3,7 @@
     <img class="w-full" src="{{$item['url']}}" alt="{{$item['url']}}">
     <div class="px-6 py-4">
       <div class="mb-2 text-xl text-black font-NexaHeavy">Double Intensive Body Serum</div>
-      <p class="text-gray-600  font-Urbanist">
+      <p class="text-gray-600 font-Urbanist">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
       </p>
     </div>

@@ -20,9 +20,9 @@
 </style>
 
 {{-- <body class="bg-gradient-to-r from-[#b3d8ff] to-[#9089fc]"> --}}
-{{-- <body class="static h-[100vh] w-full bg-[url(https://wallpaperaccess.com/full/2317540.jpg)] bg-cover bg-center bg-static bg-no-repeat"> --}}
+    {{-- <body class="h-[100vh] w-full bg-[url(https://wallpaperaccess.com/full/2317540.jpg)] bg-cover bg-center bg-fixed bg-no-repeat"> --}}
 {{-- <body> --}}
-<body class="h-[100vh] w-full bg-[url(https://wallpaperaccess.com/full/2317540.jpg)] bg-cover bg-center bg-fixed bg-no-repeat">
+<body class="h-[100vh] w-full bg-[url('/public/img/winterlandbg.png')] bg-cover bg-center bg-fixed bg-no-repeat">
     <div class="">
         <div class="flex h-screen overflow-hidden bg-center bg-no-repeat bg-cover bg-static">
             <!-- Sidebar -->
