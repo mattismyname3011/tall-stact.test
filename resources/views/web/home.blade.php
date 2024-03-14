@@ -63,6 +63,7 @@
                     {{-- <h1 class="mx-4 text-2xl font-semibold">Welcome to our website</h1>
                     <p class="mx-4">... Content goes here ...</p> --}}
                     <x-hero-section/>
+                    <x-testimonial-section/>
                     <x-social-section/>
                     <x-footer/>
                 </div>
