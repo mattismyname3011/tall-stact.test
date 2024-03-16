@@ -1,17 +1,23 @@
 <div  class="flex flex-col">
     <div class="flex w-full">
         <div class="static flex-col  w-2/3 sm:w-1/2 rounded-2xl h-[60vh] justify-center items-center flex">
-            <h1 class="hidden px-5 text-xl text-white rounded-lg sm:text-2xl md:text-3xl lg:text-5xl md:bg-transparent md:shadow-none md:px-0">
+            <h1 class="hidden px-5 text-xl font-semibold text-black rounded-lg font-Playfair sm:text-2xl md:text-3xl lg:text-5xl md:bg-transparent md:shadow-none md:px-0">
                 <span id="tagline">Unleash Your Skin's Potential <br class="hidden md:flex">with</span> 
-                <span id="product-tagline" class="font-semibold text-black ">WintérLand</span>
+                <span id="product-tagline" class="text-black ">WintérLand</span>
             </h1>
-            <h1 class="px-5 text-xl text-white rounded-lg sm:text-2xl md:text-3xl lg:text-5xl md:bg-transparent md:shadow-none md:px-0 ">
+            <h1 class="text-xl font-semibold text-black rounded-lg font-Playfair sm:text-2xl md:text-3xl lg:text-5xl md:bg-transparent md:shadow-none pl-4 md:pl-[58px] lg:pl-0  ">
                 <span id="tagline">Unleash Your Skin's Potential <br class="hidden md:flex">with</span> 
-                <span id="product-tagline" class="font-semibold text-black ">WintérLand</span>
+                <span id="product-tagline" class="text-black ">WintérLand</span>
+            </h1>
 
-                
-            </h1>
-            <div class="flex w-full px-5 mt-4 md:pl-20 ">
+            <div class="pt-4 pl-0 md:pl-[58px] lg:pl-[72px]">
+                <p class="px-5 rounded-lg md:bg-transparent md:px-0 ">
+                    {{-- <span id="tagline">Unleash Your Skin's Potential <br class="hidden md:flex">with</span>  --}}
+                    <span id="product-tagline" class="text-gray-700 font-Urbanist">Wintérland - Double Intensive Body Serum for bright, radiant skin, lightens your skin tone in 7 days. Equipped with 6x Diamond Extract to nourish the skin, Chromabright, Niacinamide, Tranexamic Acid to brighten your skin, Allantoin & Panthenol to lock in skin moisture, and other antioxidant for healthier skin.
+                    </span>
+                </p>
+            </div>
+            <div class="flex w-full px-5 mt-4 md:pl-[58px] lg:pl-[72px] ">
                 <a href="#contacts">
                     <button data-te-ripple-init data-te-ripple-color="light" type="button"
                 {{-- #3b71ca --}}
@@ -29,12 +35,6 @@
             ['id' => 1, 'url' => '/img/NonCacaaa1440x1440.png'],
             ['id' => 2, 'url' => '/img/mid_image.jpeg'],
             ['id' => 3, 'url' => '/img/Cacaaa1440x1440.png'],
-            // ['id' => 1, 'url' => '/img/winterland.ina_1709741379835.jpeg'],
-            // ['id' => 2, 'url' => '/img/mid_image.jpeg'],
-            // ['id' => 3, 'url' => '/img/winterland.ina_1709741365747.jpeg'],
-
-            // Add more sample data as needed
-            // 1709741379835
         ];
     @endphp
 
@@ -53,19 +53,5 @@
     
 
 <style>
-    #tagline{
-        text-shadow: 1px 1px black;
-    }
-    #product-tagline{
-        text-shadow: 1px 1px azure;
-    }
 
-    @media(min-width:768px){
-        #tagline{
-            text-shadow: 2px 1px black;
-        } 
-        #product-tagline{
-            text-shadow: 2px 1px azure;
-        }
-    }
 </style>

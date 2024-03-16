@@ -70,6 +70,7 @@
                     <p class="mx-4">... Content goes here ...</p> --}}
                     
                     <x-hero-section/>
+                    {{-- <x-tab-section/> --}}
                     <x-testimonial-section/>
                     <x-social-section/>
                     <x-footer/>
