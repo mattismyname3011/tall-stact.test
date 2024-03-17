@@ -1,6 +1,6 @@
 <!-- Container for demo purpose -->
 {{-- <div class=" bg-[#fbf0fb] py-10 mx-auto md:px-6"> --}}
-<div class="py-6 mx-auto bg-white md:px-6">
+<div class="py-6 mx-auto bg-gray-50 md:px-6">
     <!-- Section: Design Block -->
     <style>
         #social-platforms{

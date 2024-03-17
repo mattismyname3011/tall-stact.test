@@ -1,4 +1,4 @@
-<section class="py-4 bg-white sm:py-8 lg:py-12">
+<section class="py-4 bg-gray-50 sm:py-8 lg:py-12">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="flex flex-col items-center">
             <div class="text-center">
