@@ -6,7 +6,7 @@
         <div class="max-w-xl mx-auto min-w-xl lg:max-w-2xl">
             <div class="flex p-2 mb-4 space-x-2 bg-white rounded-lg shadow-lg">
                 <button x-on:click="openTab = 1" :class="{ 'bg-pink-500 w-[134px] h-[40px] text-white': openTab === 1 }" class="flex-1 px-4 py-2 transition-all duration-300 rounded-md focus:outline-none focus:shadow-outline-blue">Ingredients</button>
-                <button x-on:click="openTab = 2" :class="{ 'bg-pink-500 w-[134px] h-[40px] text-white': openTab === 2 }" class="flex-1 px-4 py-2 transition-all duration-300 rounded-md focus:outline-none focus:shadow-outline-blue">Section 2</button>
+                <button x-on:click="openTab = 2" :class="{ 'bg-pink-500 w-[134px] h-[40px] text-white': openTab === 2 }" class="flex-1 px-4 py-2 transition-all duration-300 rounded-md focus:outline-none focus:shadow-outline-blue">Verified</button>
                 <button x-on:click="openTab = 3" :class="{ 'bg-pink-500 w-[134px] h-[40px] text-white': openTab === 3 }" class="flex-1 px-4 py-2 transition-all duration-300 rounded-md focus:outline-none focus:shadow-outline-blue">How to use</button>
                 <button x-on:click="openTab = 4" :class="{ 'bg-pink-500 w-[134px] h-[40px] text-white': openTab === 4 }" class="flex-1 px-4 py-2 transition-all duration-300 rounded-md focus:outline-none focus:shadow-outline-blue">Benefit</button>
             </div>
@@ -18,8 +18,8 @@
             </div>
 
             <div x-show="openTab === 2" class="h-[250px]  p-4 transition-all duration-300 bg-white border-l-4 border-pink-500 rounded-lg shadow-md">
-                <h2 class="mb-2 text-2xl font-semibold text-pink-500">Section 2 Content</h2>
-                <p class="text-gray-700">Proin non velit ac purus malesuada venenatis sit amet eget lacus. Morbi quis purus id ipsum ultrices aliquet Morbi quis.</p>
+                <h2 class="mb-2 text-2xl font-semibold text-pink-500">Verified Product</h2>
+                <p class="font-semibold text-justify text-gray-700 font-Urbanist">Dapatkan produk kecantikan yang aman dan terpercaya dengan nomor BPOM NKIT230002308. Produk ini telah teruji dan terbukti aman untuk digunakan, sehingga Anda dapat tampil cantik tanpa rasa khawatir.</p>
             </div>
 
             <div x-show="openTab === 3" class="h-[250px]  p-4 transition-all duration-300 bg-white border-l-4 border-pink-500 rounded-lg shadow-md">

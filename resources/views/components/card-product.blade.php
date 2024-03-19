@@ -18,10 +18,10 @@
 </div>
  --}}
 
- <div class="relative flex flex-col w-full max-w-xs m-3 overflow-hidden bg-white border border-gray-100 rounded-lg shadow-md">
+{{-- <div class="relative flex flex-col w-full max-w-xs m-3 overflow-hidden bg-white border border-gray-100 rounded-lg shadow-md">
   <a class="relative flex mx-5 mt-4 overflow-hidden h-72 rounded-xl" href="#">
-    <img class="object-contain w-full rounded-lg" src="{{$item['url']}}" alt="product image" />
-    <span class="absolute top-0 left-0 px-2 m-2 text-sm font-medium text-center text-white bg-pink-500 rounded-full">39% OFF</span>
+    <img class="object-cover w-full rounded-lg" src="{{$item['url']}}" alt="product image" />
+    <span class="absolute top-0 left-0 px-2 m-4 mt-4 text-sm font-medium text-center text-white bg-pink-500 rounded-full">39% OFF</span>
   </a>
   <div class="px-5 pb-5 mt-4 ">
     <a href="#">
@@ -59,4 +59,53 @@
       Buy</a
     >
   </div>
-</div>
+</div> --}}
+
+<section class="overflow-hidden text-gray-700 body-font">
+  <div class="container px-5 py-8 mx-auto">
+    <div class="flex flex-wrap mx-auto lg:w-4/5 lg:px-[68px]">
+      <img alt="ecommerce" class="object-cover object-center w-full border-gray-200 rounded lg:w-1/4"  src="{{$item['url']}}">
+      <div class="w-full mt-6 lg:w-3/4 lg:px-7 lg:py-6 lg:mt-0">
+        {{-- <h2 class="text-sm tracking-widest text-gray-500 title-font">BRAND NAME</h2> --}}
+        <h1 class="mb-1 text-3xl font-medium text-gray-900 font-Playfair">WintérLand Double Intensive Body Serum</h1>
+        <div class="flex mb-4">
+          <span class="flex items-center">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-pink-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-pink-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-pink-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-pink-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-pink-500" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+            <span class="ml-3 text-gray-600">4 Reviews</span>
+          </span>
+
+        </div>
+        <p class="leading-relaxed font-Urbanist">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+        <div class="flex items-center pb-0 mt-6 mb-5 border-b-2 border-pink-500">
+          <div class="flex">
+          </div>
+          <div class="flex items-center ml-6">
+          </div>
+        </div>
+        <div class="flex gap-2">
+          {{-- <span class="text-3xl font-bold text-slate-900 ">$58.00</span>
+          <span class="text-sm font-bold line-through text-slate-900 ">$58.00</span> --}}
+          <p>
+            <span class="text-3xl font-bold text-slate-900">Rp190K</span>
+            <span class="text-sm line-through text-slate-900">Rp250K</span>
+          </p>
+          <button class="flex px-6 py-2 ml-auto text-white bg-pink-500 border-0 rounded focus:outline-none hover:bg-pink-600">Buy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

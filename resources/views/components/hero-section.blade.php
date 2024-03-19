@@ -32,15 +32,15 @@
 
     @php
         $data = [
-            ['id' => 1, 'url' => '/img/NonCacaaa1440x1440.png'],
-            ['id' => 2, 'url' => '/img/mid_image.jpeg'],
+            // ['id' => 1, 'url' => '/img/NonCacaaa1440x1440.png'],
+            // ['id' => 2, 'url' => '/img/mid_image.jpeg'],
             ['id' => 3, 'url' => '/img/Cacaaa1440x1440.png'],
         ];
     @endphp
 
     <div id="products" class="flex flex-col items-center justify-center w-full bg-gray-50 rounded-t-3xl">
         <h2 class="py-10 text-2xl font-bold text-black font-Playfair">Discover Our Products</h2>
-        <div class="flex flex-row flex-wrap items-center justify-center pb-16">
+        <div class="flex flex-row flex-wrap items-center justify-center pb-4">
             @foreach ($data as $item)
                 <x-card-product :data="$data" :item="$item" />
             @endforeach

@@ -44,7 +44,7 @@
   </div>
 </div>
 
-
+<div class=""></div>
 
 <script>
   const offerBanner = document.querySelector('#offerBanner');
