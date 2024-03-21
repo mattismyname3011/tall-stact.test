@@ -47,7 +47,8 @@
                                 </div>
 
                                 <blockquote class="flex-1 mt-8">
-                                    <p class="text-lg leading-relaxed text-gray-900 font-Urbanist">“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.”</p>
+                                    <p class="text-lg leading-relaxed text-gray-900 font-Urbanist">"WintérLand Double Intensive Body Serum are my go-to for battling winter dryness. Seriously, they're like magic in a bottle!✨"
+                                    </p>
                                 </blockquote>
                             </div>
 
@@ -93,7 +94,7 @@
                                 </div>
 
                                 <blockquote class="flex-1 mt-8">
-                                    <p class="text-lg leading-relaxed text-gray-900 font-Urbanist">“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”</p>
+                                    <p class="text-lg leading-relaxed text-gray-900 font-Urbanist">“Obsessed with WintérLand Double Intensive Body Serum! My skin feels like it's been kissed by frost – so refreshed and hydrated!❄️”</p>
                                 </blockquote>
                             </div>
 
@@ -139,7 +140,7 @@
                                 </div>
 
                                 <blockquote class="flex-1 mt-8">
-                                    <p class="text-lg leading-relaxed text-gray-900 font-Urbanist">“I cannot believe that I have got a brand new landing page after getting Omega. It was super easy to edit and publish.”</p>
+                                    <p class="text-lg leading-relaxed text-gray-900 font-Urbanist">"WintérLand Double Intensive Body Serum is a winter wonderland for my skin! It's like giving my face a warm hug amidst the cold. Love it! 💙"</p>
                                 </blockquote>
                             </div>
 

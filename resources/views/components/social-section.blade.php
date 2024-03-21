@@ -151,8 +151,7 @@
               <u class="decoration-pink-500">Satisfied Customers & Counting</u>
             </h2>
             <p class="px-10 mb-6 text-gray-800 font-Urbanist dark:text-neutral-300">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe,
-              quas?
+                Stop delaying and start achieving your goals today!
             </p>
     
             <button data-te-ripple-init data-te-ripple-color="light" type="button"
