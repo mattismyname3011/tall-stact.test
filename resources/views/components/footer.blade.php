@@ -40,10 +40,10 @@
             <span class="block mb-2 text-sm font-extrabold text-white uppercase">Useful Links</span>
             <ul class="list-unstyled">
               <li>
-                <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800 go" href="/">About Us</a>
+                <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800 go" href="/#aboutus">About Us</a>
               </li>
               <li>
-                <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/">Blog</a>
+                {{-- <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/">Blog</a> --}}
               </li>
               <li>
                 <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/">Github</a>
@@ -57,7 +57,7 @@
             <span class="block mb-2 text-sm font-extrabold text-white uppercase">Other Resources</span>
             <ul class="list-unstyled">
               <li>
-                <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/">MIT License</a>
+                {{-- <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/">MIT License</a> --}}
               </li>
               <li>
                 <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/">Terms &amp; Conditions</a>
@@ -66,7 +66,7 @@
                 <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/">Privacy Policy</a>
               </li>
               <li>
-                <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/">Contact Us</a>
+                <a class="block pb-2 text-sm font-semibold text-slate-200 hover:text-gray-800" href="/#contacts">Contact Us</a>
               </li>
             </ul>
           </div>

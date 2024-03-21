@@ -89,7 +89,8 @@
           </span>
 
         </div>
-        <p class="leading-relaxed font-Urbanist">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+        <p class="leading-relaxed text-justify font-Urbanist">Our Double Intensive Body Serum with 6x Diamond Extract + Brightening booster formula is a water-based serum and lotion that boosts skin brightness, improves skin moisture, skin smoothness, anti-aging and reinforces the skin barrier over time. It contains a high concentration of Niacinamide (vitamin B3), UV Filter and other booster antioxidants for healthier skin.
+        </p>
         <div class="flex items-center pb-0 mt-6 mb-5 border-b-2 border-pink-500">
           <div class="flex">
           </div>
