@@ -27,11 +27,11 @@
         <div class="flex h-screen overflow-hidden bg-center bg-no-repeat bg-cover bg-static">
             <!-- Sidebar -->
             {{-- <div class="absolute w-2/3 min-h-screen overflow-y-auto text-white transition-transform transform -translate-x-full bg-gray-800 " --}}
-            <div class="absolute w-2/3 min-h-screen overflow-y-auto text-white transform -translate-x-full bg-gray-800 "
+            <div class="absolute w-2/3 min-h-screen overflow-y-auto text-white transform -translate-x-full bg-[#f76b8a] sm:hidden "
                 id="sidebar">
                 <!-- Your Sidebar Content -->
-                <div class="p-4">
-                    <h1 class="text-2xl font-semibold">WinterLand</h1>
+                <div class="p-4 pl-7">
+                    <h1 class="text-2xl font-semibold font-Playfair">WintérLand</h1>
                     <ul class="mt-4">
                         <li class="mb-2"><a href="#" class="block hover:text-indigo-400">Home</a></li> 
                         <li class="mb-2"><a href="#products" class="block hover:text-indigo-400">Products</a></li>
@@ -45,7 +45,7 @@
             <div class="flex flex-col flex-1 overflow-hidden">
                 <x-offerBanner/>
                 <!-- Navbar -->
-                <div class="z-10 bg-white border-t-2 border-pink-300 shadow-md">
+                <div class="bg-white border-t-2 border-pink-300 shadow-md ">
                     <div class="container mx-auto">
                         <div class="flex items-center justify-between px-2 py-4 text-black ">
                             <h1 class="flex items-center justify-center w-1/6 mx-6 font-semibold sm:mx-0 font-Playfair">WintérLand</h1>
@@ -79,27 +79,35 @@
         </div>
     
         <script>
+            // const offerBanner = document.getElementById('offerBanner');
             const sidebar = document.getElementById('sidebar');
             const openSidebarButton = document.getElementById('open-sidebar');
+
             
             openSidebarButton.addEventListener('click', (e) => {
                 e.stopPropagation();
                 sidebar.classList.toggle('-translate-x-full');
+                // offerBanner.classList.toggle('flex', 'hidden');
             });
         
             // Close the sidebar when clicking outside of it
-            document.addEventListener('click', (e) => {
-                if (!sidebar.contains(e.target) && !openSidebarButton.contains(e.target)) {
-                    sidebar.classList.add('-translate-x-full');
-                }
-            });
+            // document.addEventListener('click', (e) => {
+            //     if (!sidebar.contains(e.target) && !openSidebarButton.contains(e.target)) {
+            //         sidebar.classList.add('-translate-x-full');
+            //         var x = document.getElementById("offerBanner");
+            //         x.classList.add("z-10");
+            //     }
+            // });
             
 
             function myFunction(){
-                const element = document.getElementById("offerBanner");
+                var x = document.getElementById("offerBanner");
+                x.classList.toggle("-z-10");
+                
                 // element.classList.toggle("relative");
-                element.classList.toggle("relative");
-                element.classList.toggle("isolate")
+                // element.classList.toggle("hidden");
+                // element.classList.toggle("relative");
+                // element.classList.toggle("isolate")
                 // element.classList.add("bg-red-500");
             } 
 
