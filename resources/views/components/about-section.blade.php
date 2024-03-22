@@ -1,5 +1,5 @@
 <div id="aboutus" class="flex flex-col items-center justify-center w-full px-4 bg-gray-50">
-  <div class="flex flex-col justify-center w-full gap-5 pt-4 pb-16 lg:flex-row bg-gradient-to-b">
+  <div class="flex flex-col justify-center w-full gap-5 pt-4 pb-16 mt-12 sm:mt-24 lg:flex-row bg-gradient-to-b">
     <div class="flex px-6 justify-evenly md:5/12lg:w-5/12">
       <img class="rounded-2xl" src="/img/winterland_product.jpg" alt="image" loading="lazy" width="438px" height="400px">
     </div>

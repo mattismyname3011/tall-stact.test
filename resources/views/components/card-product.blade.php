@@ -52,7 +52,7 @@
         <span class="mr-2 ml-3 rounded bg-yellow-200 px-2.5 py-0.5 text-xs font-semibold">5.0</span>
       </div>
     </div>
-    <a href="#" class="flex items-center justify-center rounded-md bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
+    <a href="#contacts" class="flex items-center justify-center rounded-md bg-pink-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
       </svg>
@@ -63,10 +63,9 @@
 
 <section class="overflow-hidden text-gray-700 body-font">
   <div class="container px-5 py-8 mx-auto">
-    <div class="flex flex-wrap mx-auto lg:w-4/5 lg:px-[68px]">
+    <div class="flex flex-wrap mx-auto lg:w-11/12 lg:px-[68px]">
       <img alt="ecommerce" class="object-cover object-center w-full border-gray-200 rounded lg:w-1/4"  src="{{$item['url']}}">
       <div class="w-full mt-6 lg:w-3/4 lg:px-7 lg:py-6 lg:mt-0">
-        {{-- <h2 class="text-sm tracking-widest text-gray-500 title-font">BRAND NAME</h2> --}}
         <h1 class="mb-1 text-3xl font-medium text-gray-900 font-Playfair">WintérLand Double Intensive Body Serum</h1>
         <div class="flex mb-4">
           <span class="flex items-center">
@@ -82,10 +81,10 @@
             <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-pink-500" viewBox="0 0 24 24">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
             </svg>
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-pink-500" viewBox="0 0 24 24">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-pink-500" viewBox="0 0 24 24">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
             </svg>
-            <span class="ml-3 text-gray-600">4 Reviews</span>
+            <span class="ml-3 text-gray-600">5 Reviews</span>
           </span>
 
         </div>
@@ -104,7 +103,7 @@
             <span class="text-3xl font-bold text-slate-900">Rp190K</span>
             <span class="text-sm line-through text-slate-900">Rp250K</span>
           </p>
-          <button class="flex px-6 py-2 ml-auto text-white bg-pink-500 border-0 rounded focus:outline-none hover:bg-pink-600">Buy</button>
+          <a href="#contacts" class="flex px-6 py-2 ml-auto text-white bg-pink-500 border-0 rounded focus:outline-none hover:bg-pink-600">Buy</a>
         </div>
       </div>
     </div>

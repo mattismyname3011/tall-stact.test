@@ -2,12 +2,12 @@
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="flex flex-col items-center">
             <div class="text-center">
-                <p class="text-lg font-medium text-gray-600 font-Urbanist">2,157 people have said how good Rareblocks</p>
+                <!-- <p class="text-lg font-medium text-gray-600 font-Urbanist">2,157 people have said how good Rareblocks</p> -->
                 <h2 class="mt-4 text-3xl font-bold text-gray-900 underline sm:text-4xl xl:text-5xl font-Playfair decoration-pink-500">Our happy customers say about us</h2>
             </div>
-            <div class="mt-8 text-center md:mt-16 md:order-3">
-                <a href="#" title="" class="pb-2 text-base font-bold leading-7 text-gray-900 transition-all duration-200 border-b-2 border-gray-900 hover:border-gray-600 font-pj focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 hover:text-gray-600"> Check all 2,157 reviews </a>
-            </div>
+            <!-- <div class="mt-8 text-center md:mt-16 md:order-3">
+                <a href="#" title="" class="pb-2 text-base font-bold leading-7 text-gray-900 transition-all duration-200 border-b-2 border-gray-900 hover:border-gray-600 font-pj focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 hover:text-gray-600"> Check all 1000+ reviews </a>
+            </div> -->
 
             <div class="relative mt-10 md:mt-24 md:order-2">
                 <div class="absolute -inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">
