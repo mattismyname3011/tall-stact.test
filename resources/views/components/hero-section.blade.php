@@ -1,4 +1,4 @@
-<div  class="flex flex-col">
+<div id="hero" class="flex flex-col">
     <div class="flex w-full">
         <div class="static flex-col w-2/3 sm:w-1/2 rounded-2xl pl-0 md:pl-[58px] lg:pl-[72px] h-[580px] sm:h-[480px] justify-center flex">
             <h1 class="px-5 text-xl font-semibold text-black rounded-lg font-Playfair sm:text-2xl md:text-3xl lg:text-5xl md:bg-transparent md:shadow-none ">
